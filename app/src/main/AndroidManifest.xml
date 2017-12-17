@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".choose" />
+        <activity android:name=".choose_client_menu" />
+        <activity android:name=".choose_client_store_1" />
+        <activity android:name=".choose_client_store_2" />
+        <activity android:name=".choose_client_myfavorite" />
+        <activity android:name=".choose_client_record" />
+        <activity android:name=".choose_client_record_in" />
+        <activity android:name=".choose_client_record_infor" />
+        <activity android:name=".choose_client_shoppingcar" />
+        <activity android:name=".choose_store_menu" />
+        <activity android:name=".choose_store_order" />
+        <activity android:name=".choose_store_order_in" />
+        <activity android:name=".choose_store_order_infor" />
+        <activity android:name=".choose_store_set" />
+        <activity android:name=".sign_up"></activity>
+    </application>
+
+</manifest>
